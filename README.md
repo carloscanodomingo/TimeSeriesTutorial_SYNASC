@@ -1,65 +1,81 @@
-# Time Series Analysis Tutorial - SYNASC 2024
+# 📊 Time Series Analysis Tutorial - SYNASC 2024
 
-Welcome to the **Time Series Analysis Tutorial** repository, presented by **Carlos Cano Domingo** at **SYNASC 2024**. This tutorial delves into advanced methodologies for analyzing time series data, including preprocessing, deep learning, event detection, and variable prediction. The tutorial's focus spans both traditional statistical models and cutting-edge deep learning techniques, offering participants practical insights into time series forecasting.
+Welcome to the **Time Series Analysis Tutorial** repository, presented by **Carlos Cano Domingo** at **SYNASC 2024**. This repository includes all materials used during the tutorial, which covers advanced methodologies for analyzing time series data, including preprocessing, deep learning, event detection, and variable prediction. The tutorial focuses on both traditional statistical models and cutting-edge deep learning techniques, offering practical insights into time series forecasting.
 
-## Overview
+---
 
-The materials in this repository include the following resources:
-- A comprehensive presentation in PDF format, summarizing key concepts and methodologies.
-- A Jupyter Notebook, featuring hands-on exercises in Python with PyTorch Lightning.
-- An R Markdown file for time series analysis using statistical methods and visualization in R.
+## 📚 Overview
 
-We extend special thanks to **SYNASC** for hosting the tutorial and providing a platform for exchanging knowledge on advanced computational techniques.
+This repository contains the following resources:
+- 📑 **Presentation (PDF)** summarizing key concepts and methodologies.
+- 📝 **Jupyter Notebook** with hands-on exercises using Python and PyTorch Lightning.
+- 🖥️ **R Markdown file** for time series analysis using statistical methods and data visualization in R.
+- 📊 **Data files** and **videos** demonstrating practical implementation.
 
-## Repository Structure
+Special thanks to **SYNASC 2024** for hosting the tutorial and providing a platform to share advanced computational techniques.
 
-### 1. Presentation
+---
+
+## 📂 Repository Structure
+
+### 1. 📑 Presentation
 - **File:** [TimeSeriesTutorial_SYNASC.pdf](./TimeSeriesTutorial_SYNASC.pdf)
-- This PDF presentation covers the theoretical background and key concepts for time series analysis, ranging from traditional statistical techniques (ARIMA, Exponential Smoothing) to modern machine learning models (LSTM, Transformers).
-- **Topics covered:**
-  - Time series fundamentals
-  - Challenges in time series forecasting (e.g., autocorrelation, multicollinearity, heteroscedasticity, stationarity)
-  - Practical examples of forecasting using R and Python
-  - Deep learning approaches, including PyTorch Lightning, LSTM, and Transformers
+- This PDF covers the theoretical background and key concepts for time series analysis, including:
+  - Time series fundamentals (trend, seasonality, noise)
+  - Challenges in time series forecasting (autocorrelation, multicollinearity, heteroscedasticity, stationarity)
+  - Practical forecasting examples using R and Python
+  - Advanced deep learning models like LSTM and Transformers
 
-### 2. Jupyter Notebook (Python)
+---
+
+### 2. 📝 Jupyter Notebook (Python)
 - **File:** [TimeSeriesTutorial_SYNASC.ipynb](./TimeSeriesTutorial_SYNASC.ipynb)
-- This notebook provides step-by-step instructions for implementing time series forecasting models using Python and PyTorch Lightning. It includes:
+- This notebook provides a practical guide for implementing time series forecasting models using PyTorch Lightning. It includes:
   - Data loading and preprocessing for time series
-  - Implementing Long Short-Term Memory (LSTM) networks for time series forecasting
-  - Using autoencoders for anomaly detection and dimensionality reduction
-  - Hyperparameter tuning with MLFlow and RayTune
+  - LSTM network implementation for forecasting
+  - Autoencoders for dimensionality reduction and anomaly detection
+  - Hyperparameter optimization using MLFlow and RayTune
 
-### 3. R Markdown (R)
+---
+
+### 3. 📊 R Markdown (R)
 - **File:** [TimeSeriesTutorial_SYNASC.Rmd](./TimeSeriesTutorial_SYNASC.Rmd)
-- This R Markdown file is a guide to applying statistical models to time series data. The file includes examples of:
-  - Classical forecasting methods (ARIMA, Exponential Smoothing)
-  - Data visualization and preprocessing in R
+- The R Markdown file demonstrates time series analysis using statistical methods in R, covering:
+  - Classical forecasting models (ARIMA, Exponential Smoothing)
+  - Data preprocessing and visualization techniques
   - Model validation and evaluation metrics
-  - Visualization of time series trends, seasonality, and residuals
-  - Application of machine learning models for predictive analysis
 
-### 4. R Script for Data Loading
+---
+
+### 4. 🖥️ R Script for Data Loading
 - **File:** [loading_data.R](./loading_data.R)
-- A simple R script for loading and preparing the time series data. It is intended to be used alongside the R Markdown and Jupyter notebook files.
+- A simple script to load and preprocess the time series data for use in the R and Python exercises.
 
-## Key Concepts and Models
+---
+
+### 5. 🎥 Videos
+- **Folder:** `video/`
+---
+
+## 🛠️ Key Concepts and Models
 
 This tutorial emphasizes the following key concepts and models:
 
-- **Time Series Basics:** Understanding time series data, temporal ordering, and the importance of regular intervals. Concepts like trend, seasonality, cyclical patterns, and noise are discussed in depth.
-- **Challenges in Time Series:** Special focus on common issues such as:
-  - Autocorrelation: Dealing with correlated time points
-  - Multicollinearity: Managing highly correlated variables
-  - Heteroscedasticity: Handling non-constant variance
-  - Stationarity: Working with non-stationary data
-- **Deep Learning for Time Series:**
-  - **LSTM (Long Short-Term Memory):** Capturing long-range dependencies in time series data.
-  - **Transformers:** An advanced model for handling large datasets and capturing both short-term and long-term dependencies.
-- **Autoencoder Models:** Dimensionality reduction, segmentation, and anomaly detection for time series data.
-- **Hyperparameter Optimization:** Using tools like MLFlow and RayTune to fine-tune models for better performance.
+- **📈 Time Series Fundamentals:** Understanding the importance of temporal ordering, trends, seasonality, and noise in time series data.
+- **🔑 Common Challenges:** Tackling issues like:
+  - Autocorrelation: Managing correlated time points
+  - Multicollinearity: Handling highly correlated variables
+  - Heteroscedasticity: Dealing with non-constant variance
+  - Stationarity: Ensuring reliable results with non-stationary data
+- **🤖 Deep Learning for Time Series:**
+  - **LSTM (Long Short-Term Memory):** Capturing long-term dependencies in time series.
+  - **Transformers:** Effectively handling large datasets and capturing both short-term and long-term patterns.
+- **⚙️ Autoencoders:** Techniques for anomaly detection and dimensionality reduction in time series.
+- **🎯 Hyperparameter Optimization:** Using MLFlow and RayTune for tuning deep learning models.
 
-## Installation and Usage
+---
+
+## 🧑‍💻 Installation and Usage
 
 ### Python (Jupyter Notebook)
 1. **Clone the repository:**
